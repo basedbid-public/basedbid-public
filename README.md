@@ -32,19 +32,6 @@ routing, native asset payouts, adjustable forever. The partners we're already
 in conversations with are holding for this launch before they go live, so
 Thursday is the real starting gun.
 
-**Also live:**
-- $MIDTERMS: 11x returns for early investors via a BasedBid Flash Token (Launched by a board owner as a proof of concept)
-- 8 Boards created with committed partners (MLMX, ARZ, APR)
-
----
-
-Platform       Post-Launch Revenue   Chains    DEX Support
------------    -------------------   -------   -----------
-BasedBid       1-10% forever         5 chains  Any DEX
-Pump.fun       0%                    Solana    Their DEX
-LetsBonk       0%                    Solana    Raydium only
-Everyone else  0%                    Various   Limited
-
 ---
 
 **Architecture**
@@ -53,6 +40,8 @@ Pools: bonding curve launches with lifetime fee collection
 Flash Tokens: instant DEX deployment using virtual liquidity, zero capital required
 Boards: white-label launchpads for KOLs and agencies, earn % of fees forever
 Fee Builder: programmable treasury with dynamic routing to unlimited recipients
+
+Products explained in: HOWITWORKS.md
 
 ---
 

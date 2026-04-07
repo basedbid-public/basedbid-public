@@ -7,15 +7,7 @@
 [![Docs](https://img.shields.io/badge/docs-gitbook-blue?style=flat)](https://basedinc.gitbook.io/basedbid)
 ---
 
-**Platform:** https://based.bid
-
-**Docs:**    https://basedinc.gitbook.io/basedbid
-
----
-
-**Solana Frontier Hackathon 2026 Applicant**
-
-Core product - "Fee Builder" ships Thursday April 10th
+**Colosseum Frontier Hackathon 2026 Applicant**
 
 ---
 
@@ -39,6 +31,8 @@ Our flagship Fee Builder ships Thursday and is a major upgrade to all three. Dyn
 routing, native asset payouts, adjustable forever. The partners we're already
 in conversations with are holding for this launch before they go live, so
 Thursday is the real starting gun.
+
+Core product - "Fee Builder" ships Thursday April 10th
 
 ---
 

@@ -1,2 +1,75 @@
-# basedbid-public
-BasedBid is a Multi-chain, capital-efficient launch infrastructure for tokens, LBPs, and white-label launchpads. Enabling capital-free launches through virtual liquidity, programmable fee routing, advanced launch protection, and native-asset fee capture that eliminates contract-driven token dumping on the chart.
+
+**Platform: ** https://based.bid
+**Docs:  **    https://basedinc.gitbook.io/basedbid
+
+---
+
+**Solana Frontier Hackathon 2026 Applicant**
+
+Core product - "Fee Builder" ships Thursday April 10th
+
+---
+
+The problem: Creators launch tokens, graduate to DEXs, earn $0 forever.
+$4B monthly volume on Pump.fun alone and creators see around 0.05% of it post-launch.
+
+We built the first platform where creators earn 1-10% of all trading volume without damaging liquidity or dumping charts,
+forever, on any DEX, any chain.
+
+---
+
+**What's live right now**
+
+Our 3 core products: Pools, Boards, and Flash Tokens are all live across EVM chains (Ethereum,
+Base, BNB, MegaETH) and Solana. Projects can launch today, earn fees today,
+and KOLs can spin up a branded Board in minutes.
+
+Our flagship Fee Builder ships Thursday and is a major upgrade to all three. Dynamic fee
+routing, native asset payouts, adjustable forever. The partners we're already
+in conversations with are holding for this launch before they go live, so
+Thursday is the real starting gun.
+
+**Also live:**
+- $MIDTERMS: 11x returns for early investors via a BasedBid Flash Token (Launched by a board owner as a proof of concept)
+- 8 Boards created with committed partners (MLMX, ARZ, APR)
+
+---
+
+Platform       Post-Launch Revenue   Chains    DEX Support
+-----------    -------------------   -------   -----------
+BasedBid       1-10% forever         5 chains  Any DEX
+Pump.fun       0%                    Solana    Their DEX
+LetsBonk       0%                    Solana    Raydium only
+Everyone else  0%                    Various   Limited
+
+---
+
+**Architecture**
+
+Pools: bonding curve launches with lifetime fee collection
+Flash Tokens: instant DEX deployment using virtual liquidity, zero capital required
+Boards: white-label launchpads for KOLs and agencies, earn % of fees forever
+Fee Builder: programmable treasury with dynamic routing to unlimited recipients
+
+---
+
+Partnerships ready to go:
+- GemPad the leading decentralised IDO launchpad and token locker.
+- MLMX: validated by $MIDTERMS, Next board token is waiting for fee builder.
+- ARZ: trusted dev with a proven track record
+- Delusional Bulls: Project builder platform that will create a board and use our whitelabel tech.
+
+Full pipeline in TRACTION.md
+
+---
+
+**Team**
+
+Redrum (lead dev), Dante (bot dev), Michael (BD and
+community), Dakota (support), Minx (Socials and GFX) 5 people
+
+---
+
+Launch for free. Earn 1-10% of every trade on your token, forever, on any
+DEX, any chain.
+

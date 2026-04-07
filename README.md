@@ -11,7 +11,9 @@ Core product - "Fee Builder" ships Thursday April 10th
 
 ---
 
-The problem: Creators launch tokens, graduate to DEXs, earn $0 forever.
+**The Problem:**
+
+Creators launch tokens, graduate to DEXs, earn $0 forever.
 $4B monthly volume on Pump.fun alone and creators see around 0.05% of it post-launch.
 
 We built the first platform where creators earn 1-10% of all trading volume without damaging liquidity or dumping charts,

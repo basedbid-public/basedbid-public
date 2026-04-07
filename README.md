@@ -1,4 +1,7 @@
-**BASEDBID**
+
+<img width="601" height="331" alt="vertical version dark" src="https://github.com/user-attachments/assets/62c375eb-0ca0-46df-bf90-0648e47506a0" />
+
+---
 
 **Platform:** https://based.bid
 

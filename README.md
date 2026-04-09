@@ -1,8 +1,10 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/bd8ca2a7-8ee8-4970-8150-8b074b7bb751" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/bd8ca2a7-8ee8-4970-8150-8b074b7bb751" />
   <img src="https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319" alt="Based Bid logo" width="601" height="331" />
 </picture>
+
+https://github.com/user-attachments/assets/1cded765-3fb0-4599-af25-6396b4434319
 
 [![X (Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/basedbidx)
 [![Telegram](https://img.shields.io/badge/Telegram-join-26A5E4?style=flat&logo=telegram)](https://t.me/ThebasedInc)

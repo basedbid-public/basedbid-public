@@ -11,7 +11,7 @@
   />
 </picture>
 
-[![X (Twitter)](https://img.shields.io/twitter/follow/ThebasedInc?style=flat&logo=x&label=follow&color=000000)](https://x.com/ThebasedInc)
+[![X (Twitter)](https://img.shields.io/twitter/follow/basedbidx?style=flat&logo=x&label=follow&color=000000)](https://x.com/ThebasedInc)
 [![Telegram](https://img.shields.io/badge/Telegram-join-26A5E4?style=flat&logo=telegram)](https://t.me/ThebasedInc)
 [![Website](https://img.shields.io/badge/based.bid-live-00ff00?style=flat)](https://based.bid)
 [![Docs](https://img.shields.io/badge/docs-gitbook-blue?style=flat)](https://basedinc.gitbook.io/basedbid)

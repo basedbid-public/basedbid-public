@@ -12,6 +12,8 @@ basedbid is programmable token launch infrastructure for instant launches, Liqui
 
 basedbid lets builders, creators, KOLs, communities, and incubators launch tokens or Liquidity Bonding Pools while defining how trading fees are routed across creators, communities, KOLs, rewards, buybacks, marketing, liquidity, and treasury destinations.
 
+boards, pools, token launches, and OpenBid support are live on mainnet.
+
 ## Core products
 
 - **Pools** — Liquidity Bonding Pools with configurable launch parameters.
@@ -54,7 +56,7 @@ OpenBid contains the public TypeScript SDK and developer tooling for interacting
 
 ## What is private
 
-The full production basedbid implementation is private and is not included in this repository.
+The full production basedbid implementation is live but private, and is not included in this repository.
 
 This repository should be reviewed as the public submission hub, not as a full production protocol codebase.
 

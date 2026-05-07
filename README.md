@@ -24,6 +24,8 @@ basedbid lets builders, creators, KOLs, communities, and incubators launch token
 
 Launches should not be one-time extraction events. They should become programmable economic infrastructure for the people who create, distribute, and support them.
 
+boards, pools, token launches, and OpenBid support are live on mainnet.
+
 ---
 
 ## The problem

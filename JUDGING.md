@@ -36,7 +36,7 @@ This repository demonstrates:
 
 ## What this repo does not demonstrate
 
-This repository does not include the complete production protocol implementation.
+This repository does not include the complete production protocol implementation, even though boards, pools, token launches, and OpenBid support are live on mainnet.
 
 It does not demonstrate:
 

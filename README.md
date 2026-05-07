@@ -141,7 +141,7 @@ This repository includes:
 
 ## What is private
 
-The complete production basedbid implementation is private and is not included in this repository.
+The complete production basedbid implementation is live but private, and is not included in this repository.
 
 This repository does not include:
 
@@ -185,4 +185,6 @@ The core thesis:
 
 This repository is maintained as the public Colosseum Frontier Hackathon 2026 submission hub for basedbid.
 
-The production implementation is private. The open-source SDK is maintained separately in the OpenBid repository.
+boards, pools, token launches, and OpenBid support are live on mainnet.
+
+The full production basedbid implementation is private and is not fully represented in this repository. The open-source SDK is maintained separately in the OpenBid repository.

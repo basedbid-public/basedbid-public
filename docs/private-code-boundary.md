@@ -1,58 +1,156 @@
-# Private Code Boundary
+# Architecture
 
-This document explains what is public, what is open source, and what remains private.
+basedbid is structured as programmable token launch infrastructure.
 
-## Public in this repository
+boards, pools, token launches, and OpenBid support are live on mainnet. This document explains the high-level architecture without exposing the full private production implementation.
 
-The `basedbid` repository includes:
+The system is organized around five core layers:
 
-- product documentation
-- hackathon submission materials
-- demo information
-- traction and metrics summaries
-- partnership notes
-- weekly updates
-- architecture explanations
-- links to the open-source SDK
+1. Interface layer
+2. Board layer
+3. Launch layer
+4. Fee Builder layer
+5. Governance layer
 
-## Open source in the OpenBid repository
+---
+
+## 1. Interface layer
+
+The interface layer is how users and developers interact with basedbid.
+
+This can include:
+
+- the basedbid web app;
+- partner integrations;
+- developer tooling;
+- the OpenBid SDK;
+- future APIs or automation interfaces.
+
+The goal of this layer is to make token launches, Board creation, pool setup, and fee configuration accessible without requiring every user to interact directly with lower-level infrastructure.
+
+---
+
+## 2. Board layer
+
+The Board layer defines programmable launch environments.
+
+A Board can represent a KOL, community, incubator, launch agency, DAO, or builder group.
+
+Boards can define:
+
+- launch permissions;
+- allowed launch types;
+- branding;
+- default fee behavior;
+- market cap preferences;
+- DEX preferences;
+- publishing rules;
+- governance settings.
+
+This layer turns distribution into infrastructure.
+
+---
+
+## 3. Launch layer
+
+The launch layer supports the core launch products.
+
+### Pools
+
+Pools are Liquidity Bonding Pools with configurable launch parameters and project-controlled economics.
+
+Pools are designed for launches that need more control over market cap parameters, launch structure, and long-term fee routing.
+
+### Flash Tokens
+
+Flash Tokens are instant token launches designed to reduce capital requirements and time-to-market.
+
+Flash Tokens are designed for faster deployment while still connecting to Board-level distribution and Fee Builder logic.
+
+Both launch types can be connected to Boards and Fee Builder logic.
+
+---
+
+## 4. Fee Builder layer
+
+The Fee Builder layer defines how trading fees are allocated.
+
+Fees can be routed across categories such as:
+
+- creator revenue;
+- KOL incentives;
+- rewards;
+- marketing;
+- buybacks;
+- liquidity;
+- treasuries;
+- custom wallets.
+
+This makes launch economics programmable instead of fixed to a single destination.
+
+Fee Builder is also designed to support cleaner stakeholder compensation by allowing value to be routed to multiple parties without relying only on token-based payments.
+
+---
+
+## 5. Governance layer
+
+The governance layer defines who can update economic parameters over time.
+
+A launch may begin with creator-controlled settings and later transition to:
+
+- multisig control;
+- DAO control;
+- token-holder governance;
+- community takeover structures.
+
+This is designed to let projects evolve without needing to relaunch their entire token economy.
+
+---
+
+## System flow
+
+1. A creator, KOL, community, or partner enters through the interface layer.
+2. They create or select a Board.
+3. They launch a Pool or Flash Token.
+4. Fee Builder rules define who earns from trading activity.
+5. Governance controls whether and how the configuration can evolve.
+6. The launch continues operating under the configured rules.
+
+---
+
+## Public and private components
+
+| Component | Public in this repo? | Notes |
+|---|---:|---|
+| Product documentation | Yes | Public submission materials |
+| Architecture overview | Yes | High-level system design |
+| Demo materials | Yes | Judge-facing demo support |
+| OpenBid SDK | Separate repo | Fully open-source technical companion |
+| Full production smart contracts | No | Live mainnet implementation exists, but full source is private and not included here |
+| Backend services | No | Live/private implementation not included here |
+| Admin tooling | No | Private implementation not included here |
+| Deployment infrastructure | No | Private implementation not included here |
+
+---
+
+## OpenBid SDK
 
 The OpenBid SDK is maintained separately:
 
 https://github.com/basedbid-public/openbid
 
-OpenBid is the public developer-facing SDK and tooling repository.
+It is the public, open-source developer companion for interacting with basedbid.
 
-It is separate from this submission repository for cleanliness.
+This repository remains the public Colosseum submission hub.
 
-## Private implementation
+---
 
-The complete production basedbid implementation is private.
+## Architecture summary
 
-Private components may include:
+basedbid combines live mainnet launch infrastructure with a public documentation and SDK surface.
 
-- production smart contracts
-- backend services
-- admin systems
-- deployment scripts
-- private ABIs
-- security-sensitive configuration
-- privileged infrastructure
-- internal monitoring and operational tooling
+This repository explains the product, architecture, demo flow, and hackathon submission materials.
 
-## Why this boundary exists
+The OpenBid repository provides the open-source SDK layer.
 
-basedbid is presenting this repository as a public hackathon submission hub, not as a complete open-source release of the production protocol.
-
-The goal is to let judges understand:
-
-- what basedbid is;
-- what problem it solves;
-- how the architecture is intended to work;
-- what has been built publicly;
-- where the open-source SDK lives;
-- and which parts are intentionally private.
-
-## Verification note
-
-Unless explicitly stated, material in this repository should not be interpreted as audited, verified, or production-complete code.
+The full production protocol implementation remains private and is not fully represented in this repository.

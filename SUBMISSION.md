@@ -1,4 +1,4 @@
-# basedbid — Colosseum Frontier Hackathon 2026 Submission
+# basedbid - Colosseum Frontier Hackathon 2026 Submission
 
 ## Project
 

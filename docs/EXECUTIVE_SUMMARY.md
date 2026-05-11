@@ -57,7 +57,6 @@ Trading fees automatically split:
 
 ### **MLMX (Scott/Midterm)**
 - Flagship Board partner with proven track record
-- **$MIDTERM** token: "The Cleanest Contract on Solana"
 - First Fee Builder user when it launches
 - Creates replicable blueprint for other KOLs
 
@@ -79,8 +78,8 @@ Trading fees automatically split:
 
 ## **5-Week Hackathon Timeline**
 
-- **Week 1**: Foundation + MLMX partnership documentation ✅
-- **Week 2**: **Fee Builder launch** (the innovation) 🚀
+- **Week 1**: Foundation + MLMX partnership documentation 
+- **Week 2**: **Fee Builder launch** (the innovation) 
 - **Week 3**: Demo development + traction metrics
 - **Week 4**: Commercial validation + additional partnerships
 - **Week 5**: Final polish + submission

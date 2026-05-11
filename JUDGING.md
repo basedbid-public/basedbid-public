@@ -4,14 +4,15 @@ This repository is designed to make the basedbid submission easy to evaluate.
 
 ## Review this first
 
-1. `README.md` — high-level overview
-2. `SUBMISSION.md` — hackathon submission summary
-3. `HOWITWORKS.md` — product mechanics
-4. `docs/` — deeper product and architecture notes
-5. `demo/` — demo materials
-6. `traction.md` — traction and progress
-7. `Colosseum-Weekly-Updates/` — weekly build history
-8. OpenBid SDK — open-source technical companion
+1. `README.md`: high-level overview
+2. `SUBMISSION.md`: hackathon submission summary
+3. `HOWITWORKS.md`: product mechanics
+4. `docs/JUDGE_CRITERIA_FEEDBACK.md`: direct judge criteria alignment
+5. `docs/`: deeper product and architecture notes
+6. `demo/`: demo materials
+7. `traction.md`: traction and progress
+8. `Colosseum-Weekly-Updates/`: weekly build history
+9. OpenBid SDK: open-source technical companion
 
 ## Open-source SDK
 
@@ -33,6 +34,14 @@ This repository demonstrates:
 - hackathon progress
 - public documentation
 - open-source SDK direction
+
+## Key differentiation
+
+basedbid should be evaluated as programmable launch infrastructure, not only as a token launcher.
+
+The team built custom launch and fee-routing infrastructure for major DEX environments across major chains. That matters because different DEXs and chains require different execution paths, liquidity mechanics, and fee behavior.
+
+The result is a complete dynamic token system: launch configuration, Board-owned distribution, programmable fee routing, post-launch creator revenue, and a public SDK surface through OpenBid.
 
 ## What this repo does not demonstrate
 

@@ -1,47 +1,35 @@
-# Disclaimer
+# Public Repository Boundary
 
-This repository is the public documentation and submission hub for BasedBid’s Colosseum Frontier Hackathon 2026 submission.
+This repository is the public Colosseum submission hub for BasedBid. It is designed to explain the product, market, architecture, traction, demo flow, and open-source SDK surface.
 
-It is intended to explain the product, architecture, demo flow, traction, and open-source companion tooling around basedbid.
+## Public in this repository
 
-## What this repository is
+- Submission narrative and judge navigation.
+- Product documentation for Pools, Flash Tokens, Boards, and Fee Builder.
+- Architecture notes and fee-routing explanations.
+- Demo walkthroughs and deployment notes.
+- Market research, traction summaries, and partnership documentation.
+- Links to the OpenBid SDK.
 
-This repository is a public showcase repository. It includes:
+## Public in OpenBid
 
-- product documentation
-- architecture explanations
-- demo materials
-- traction summaries
-- partnership notes
-- judge-facing submission materials
-- links to the open-source OpenBid SDK
-
-## What this repository is not
-
-This repository does not contain the full production basedbid protocol implementation.
-
-It does not include:
-
-- production smart contracts
-- private backend services
-- deployment infrastructure
-- private admin tooling
-- private keys or privileged configuration
-- complete production ABIs
-- security-sensitive internal routing logic
-
-## Open-source code
-
-The open-source SDK and developer tooling lives in the separate OpenBid repository:
+OpenBid is the open-source TypeScript SDK:
 
 https://github.com/basedbid-public/openbid
 
-OpenBid is the public technical companion repo for interacting with basedbid.
+It contains developer-facing tooling for interacting with BasedBid, including Board creation, LBP creation, Flash Token creation, buy and sell flows, schemas, ABIs, and API transaction helpers.
 
-## Security and verification
+## Private production components
 
-Code, contracts, diagrams, and architecture descriptions in this repository should not be interpreted as audited, verified, or production-complete unless explicitly stated.
+The complete production BasedBid implementation is live but private. This repository does not include:
 
-The production implementation is private and should not be treated as fully represented by this repository.
+- full production smart contracts
+- private backend services
+- deployment infrastructure
+- admin tooling
+- internal routing logic
+- private keys or operational secrets
 
-Nothing in this repository is financial advice, investment advice, or a guarantee of protocol behavior.
+## Why the split exists
+
+The split keeps the hackathon submission reviewable while keeping production security boundaries intact. Judges can evaluate the product thesis, traction, architecture, demo materials, and public SDK without exposing sensitive production code.

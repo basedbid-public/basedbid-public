@@ -114,6 +114,7 @@ This repository is the public Colosseum submission hub. OpenBid is the fully ope
 | Path | Purpose |
 |---|---|
 | [`SUBMISSION.md`](./SUBMISSION.md) | Colosseum submission summary |
+| [`WHY_THIS_TEAM_CAN_WIN.md`](./WHY_THIS_TEAM_CAN_WIN.md) | Team background, GemPad execution history, and why we can compete |
 | [`JUDGING.md`](./JUDGING.md) | Suggested judge review path |
 | [`DISCLAIMER.md`](./DISCLAIMER.md) | Public repo boundary and verification notice |
 | [`HOWITWORKS.md`](./HOWITWORKS.md) | Product mechanics and feature explanation |
@@ -164,12 +165,13 @@ For more detail, see:
 ## Suggested judge review path
 
 1. Read [`SUBMISSION.md`](./SUBMISSION.md)
-2. Read [`HOWITWORKS.md`](./HOWITWORKS.md)
-3. Read [`JUDGING.md`](./JUDGING.md)
-4. Review [`docs/`](./docs)
-5. Review [`demo/`](./demo)
-6. Review [`traction.md`](./traction.md)
-7. Review the open-source [`OpenBid SDK`](https://github.com/basedbid-public/openbid)
+2. Read [`WHY_THIS_TEAM_CAN_WIN.md`](./WHY_THIS_TEAM_CAN_WIN.md)
+3. Read [`HOWITWORKS.md`](./HOWITWORKS.md)
+4. Read [`JUDGING.md`](./JUDGING.md)
+5. Review [`docs/`](./docs)
+6. Review [`demo/`](./demo)
+7. Review [`traction.md`](./traction.md)
+8. Review the open-source [`OpenBid SDK`](https://github.com/basedbid-public/openbid)
 
 ---
 
